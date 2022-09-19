@@ -1,0 +1,43 @@
+.formLabel {
+    margin-right: 3rem;
+    font-size: 2rem;
+}
+
+.formLabel1 {
+    margin-right: 6rem;
+    font-size: 2rem;
+}
+
+.formInput {
+    display: inline;
+    width: 50%;
+}
+
+.formButton {
+    width: 8%;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #000000;
+    margin: 2rem;
+}
+
+.formButtonUpdate {
+    width: 8%;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #000000;
+    margin: 2rem;
+    display: none;
+}
+
+.formButtonUpdateVisible{
+    display: inline;
+    width: 8%;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #000000;
+    margin: 2rem;
+}

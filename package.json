@@ -9,9 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/client": "^3.6.9",
+    "apollo-server": "^3.10.2",
+    "bootstrap": "^5.2.1",
+    "graphql": "^16.6.0",
+    "json-graphql-server": "^2.3.2",
     "next": "12.3.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "^6.4.0"
   },
   "devDependencies": {
     "eslint": "8.23.1",

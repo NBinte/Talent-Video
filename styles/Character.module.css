@@ -1,0 +1,15 @@
+.contentStyle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.imageStyle {
+    width: fit-content;
+    margin-right: 3rem;
+}
+
+.textStyle {
+    width: fit-content;
+}

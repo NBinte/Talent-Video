@@ -1,0 +1,20 @@
+{
+    "videos": [
+      {
+        "id": 0,
+        "title": "Spirited Away",
+        "link":"https://www.youtube.com/embed/ByXuk9QqQkk"
+      },
+      {
+        "id": 1,
+        "title": "Grave of the Fireflies",
+        "link":"https://www.youtube.com/embed/4vPeTSRd580"
+      },
+      {
+        "id": 2,
+        "title": "When Marnie Was There",
+        "link":"https://www.youtube.com/embed/jjmrxqcQdYg"
+      }
+    ]
+    
+}
