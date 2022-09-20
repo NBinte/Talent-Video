@@ -1,3 +1,15 @@
+## Instructions
+
+- Clone the project
+- Go to the project folder and run **_npm install_**
+- Go to the project folder and keep running **_json-graphql-server graphql-server.json --p 5000_**
+- Go to http://localhost:5000/ for GraphQL query
+- Go to the project folder again and keep running **_npm run dev_**
+- Go to http://localhost:3000/
+
+### Tools Used: **Next.JS, apollo/client, json-graphql-server**
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
