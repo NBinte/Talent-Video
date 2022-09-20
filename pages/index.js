@@ -27,7 +27,7 @@ export default function Home () {
 
         if (inputValue.title && inputValue.link) {
             let taskObject = {
-                id: videoArray.length,
+                id: videoArray.length + 1,
                 title: inputValue.title,
                 link: `https://www.youtube.com/embed/${inputValue.link}`
             };
@@ -52,7 +52,7 @@ export default function Home () {
                 </Head>
 
                 <main className={style.main}>
-                    <h2>Video Management</h2>
+                    <h2>Fanfare</h2>
 
                     <VideosList
                         videoArray={videoArray}
