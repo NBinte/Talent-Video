@@ -14,12 +14,23 @@ export default function VideosList ({
     setInputValue,
     handleSubmit
 }) {
-    const [clickId, setClickId] = useState(null);
-    console.log(clickId);
+    const [clickId, setClickId] = useState("");
 
     const handleEdit = id => {
         setClickId(prevValue => {
             return id;
+        });
+    };
+
+    const handleDelete = id => {
+        function filterFunc (value) {
+            return value.id != id;
+        }
+
+        let updatedArray = videoArray.filter(filterFunc);
+
+        setVideoArray(prevValue => {
+            return updatedArray;
         });
     };
 
@@ -39,7 +50,7 @@ export default function VideosList ({
             ></FormComp>
 
             <div className={style.contentStyle}>
-                <h3>Video List</h3>
+                <h3>Studio Ghibli Collection</h3>
                 <div className={style.cardContent}>
                     {videoArray?.map((eachItem, itemIndex) => {
                         return (
@@ -53,6 +64,7 @@ export default function VideosList ({
                                             height='300'
                                             src={eachItem.link}
                                             frameBorder='0'
+                                            allowFullScreen='allowfullscreen'
                                         ></iframe>
                                     </div>
                                     <Card.Body className={style.cardBodyStyle}>
@@ -65,7 +77,12 @@ export default function VideosList ({
                                             >
                                                 Edit
                                             </Button>
-                                            <Button variant='danger'>Delete</Button>
+                                            <Button
+                                                variant='danger'
+                                                onClick={() => handleDelete(eachItem.id)}
+                                            >
+                                                Delete
+                                            </Button>
                                         </Card.Text>
                                     </Card.Body>
                                 </Card>

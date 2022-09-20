@@ -1,10 +1,8 @@
 import Head from "next/head";
-import Image from "next/image";
 import { useState, useEffect } from "react";
 import style from "../styles/Home.module.css";
 import VideosList from "../Components/VideosList";
 import { useVideos } from "../hooks/useVideos";
-import FormComp from "../Components/FormComp";
 
 export default function Home () {
     const [inputValue, setInputValue] = useState({

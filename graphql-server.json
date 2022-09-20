@@ -14,7 +14,43 @@
         "id": 2,
         "title": "When Marnie Was There",
         "link":"https://www.youtube.com/embed/jjmrxqcQdYg"
+      },
+      {
+        "id": 4,
+        "title": "Howl's Moving Castle",
+        "link":"https://www.youtube.com/embed/iwROgK94zcM"
+      },
+      {
+        "id": 5,
+        "title": "My Neighbor Totoro ",
+        "link":"https://www.youtube.com/embed/92a7Hj0ijLs"
+      },
+      {
+        "id": 6,
+        "title": "The Wind Rises",
+        "link":"https://www.youtube.com/embed/RzSpDgiF5y8"
+      },
+      {
+        "id": 7,
+        "title": "The Wind Rises",
+        "link":"https://www.youtube.com/embed/4OiMOHRDs14"
+      },
+      {
+        "id": 8,
+        "title": "Nausicaä of the Valley of the Wind",
+        "link":"https://www.youtube.com/embed/6zhLBe319KE"
+      },
+      {
+        "id": 9,
+        "title": "From Up On Poppy Hill",
+        "link":"https://www.youtube.com/embed/9nzpk_Br6yo"
+      },
+      {
+        "id": 10,
+        "title": "The Tale Of The Princess Kaguya",
+        "link":"https://www.youtube.com/embed/W71mtorCZDw"
       }
+
     ]
     
 }

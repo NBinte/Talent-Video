@@ -14,10 +14,8 @@ export default function FormComp ({
 }) {
     const { error, loading, data } = useVideo(clickId);
 
-    console.log(data);
-
     useEffect(() => {
-        if (data && !loading) {
+        if (clickId && data && !loading) {
             let linkValue = data.Video.link.split("embed/");
 
             setInputValue(prevValue => {
