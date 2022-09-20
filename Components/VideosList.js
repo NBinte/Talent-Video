@@ -54,39 +54,37 @@ export default function VideosList ({
                 <div className={style.cardContent}>
                     {videoArray?.map((eachItem, itemIndex) => {
                         return (
-                            <div key={eachItem.id} className={style.cardDivStyle}>
-                                <Card className={style.cardStyle}>
-                                    <div>
-                                        <iframe
-                                            id='ytplayer'
-                                            type='text/html'
-                                            width='300'
-                                            height='300'
-                                            src={eachItem.link}
-                                            frameBorder='0'
-                                            allowFullScreen='allowfullscreen'
-                                        ></iframe>
-                                    </div>
-                                    <Card.Body className={style.cardBodyStyle}>
-                                        <Card.Title>{eachItem.title}</Card.Title>
-                                        <Card.Text>
-                                            <Button
-                                                variant='info'
-                                                className={style.buttonStyle}
-                                                onClick={() => handleEdit(eachItem.id)}
-                                            >
-                                                Edit
-                                            </Button>
-                                            <Button
-                                                variant='danger'
-                                                onClick={() => handleDelete(eachItem.id)}
-                                            >
-                                                Delete
-                                            </Button>
-                                        </Card.Text>
-                                    </Card.Body>
-                                </Card>
-                            </div>
+                            <Card className={style.cardStyle} key={eachItem.id}>
+                                <div>
+                                    <iframe
+                                        id='ytplayer'
+                                        type='text/html'
+                                        width='350'
+                                        height='350'
+                                        src={eachItem.link}
+                                        frameBorder='0'
+                                        allowFullScreen='allowfullscreen'
+                                    ></iframe>
+                                </div>
+                                <Card.Body className={style.cardBodyStyle}>
+                                    <Card.Title>{eachItem.title}</Card.Title>
+                                    <Card.Text>
+                                        <Button
+                                            variant='info'
+                                            className={style.buttonStyle}
+                                            onClick={() => handleEdit(eachItem.id)}
+                                        >
+                                            Edit
+                                        </Button>
+                                        <Button
+                                            variant='danger'
+                                            onClick={() => handleDelete(eachItem.id)}
+                                        >
+                                            Delete
+                                        </Button>
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
                         );
                     })}
                 </div>
